@@ -1,0 +1,434 @@
+-- OrionLibrary
+local OrionLib = loadstring(game:HttpGet('https://raw.githubusercontent.com/thanhdat4461/OrionMoblie/main/source'))()
+
+-- Window
+local Window = OrionLib:MakeWindow({Name = "BLeed | HOTEL ELEPHANT", HidePremium = false, SaveConfig = true, ConfigFolder = "OrionTest"})
+
+-- TeleportGameTab
+local TPGTab = Window:MakeTab({
+	Name = "Game TP",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+-- MoneyTab
+local MoneyTab = Window:MakeTab({
+	Name = "MONEY",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+-- TeleportTab
+local TeleportTab = Window:MakeTab({
+	Name = "TELEPORT",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+-- PurchaseTab
+local PurchaseTab = Window:MakeTab({
+	Name = "PURCHASE",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+-- InfoTab
+local InfoTab = Window:MakeTab({
+	Name = "INFO",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+-- SNM
+local SNMTab = Window:MakeTab({
+	Name = "Showcaser & More",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+-- MoreTab
+local MoreTab = Window:MakeTab({
+	Name = "MORE",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+-- TPGButtons
+TPGTab:AddButton({
+	Name = "HOTEL ELEPHANT",
+	Callback = function()
+      		
+  	end    
+})
+
+TPGTab:AddButton({
+	Name = "MM2",
+	Callback = function()
+      		
+  	end    
+})
+
+TPGTab:AddButton({
+	Name = "Da Hood",
+	Callback = function()
+      		
+  	end    
+})
+
+TPGTab:AddButton({
+	Name = "Brookhaven",
+	Callback = function()
+      		
+  	end    
+})
+
+TPGTab:AddButton({
+	Name = "Fencing (TEST SCRIPTS)",
+	Callback = function()
+      		
+  	end    
+})
+
+-- TeleportButtons
+TeleportTab:AddButton({
+	Name = "1ST FLOOR",
+	Callback = function()
+      		
+  	end    
+})
+
+-- MoneyTip
+MoneyTab:AddLabel("DONT GO TOO HIGH TO AVOID NEGATIVE MONEY")
+
+-- MoneyButtons
+MoneyTab:AddButton({
+	Name = "1K MONEY",
+	Callback = function()
+      		game:GetService("ReplicatedStorage").MoneyRequest:FireServer(false, 1000, "Cash")
+  	end    
+})
+
+MoneyTab:AddButton({
+	Name = "10K MONEY",
+	Callback = function()
+      		game:GetService("ReplicatedStorage").MoneyRequest:FireServer(false, 10000, "Cash")
+  	end    
+})
+
+MoneyTab:AddButton({
+	Name = "100K MONEY",
+	Callback = function()
+      		game:GetService("ReplicatedStorage").MoneyRequest:FireServer(false, 100000, "Cash")
+  	end    
+})
+
+MoneyTab:AddButton({
+	Name = "1M MONEY",
+	Callback = function()
+      		game:GetService("ReplicatedStorage").MoneyRequest:FireServer(false, 1000000, "Cash")
+  	end    
+})
+
+MoneyTab:AddButton({
+	Name = "10M MONEY",
+	Callback = function()
+      		game:GetService("ReplicatedStorage").MoneyRequest:FireServer(false, 10000000, "Cash")
+  	end    
+})
+
+MoneyTab:AddButton({
+	Name = "100M MONEY",
+	Callback = function()
+      		game:GetService("ReplicatedStorage").MoneyRequest:FireServer(false, 100000000, "Cash")
+  	end    
+})
+
+MoneyTab:AddButton({
+	Name = "1B MONEY",
+	Callback = function()
+      		game:GetService("ReplicatedStorage").MoneyRequest:FireServer(false, 1000000000, "Cash")
+  	end    
+})
+
+MoneyTab:AddButton({
+	Name = "10B MONEY",
+	Callback = function()
+      		game:GetService("ReplicatedStorage").MoneyRequest:FireServer(false, 10000000000, "Cash")
+  	end    
+})
+
+MoneyTab:AddButton({
+	Name = "100B MONEY",
+	Callback = function()
+      		game:GetService("ReplicatedStorage").MoneyRequest:FireServer(false, 100000000000, "Cash")
+  	end    
+})
+
+MoneyTab:AddButton({
+	Name = "1T MONEY",
+	Callback = function()
+      		game:GetService("ReplicatedStorage").MoneyRequest:FireServer(false, 1000000000000, "Cash")
+  	end    
+})
+
+MoneyTab:AddButton({
+	Name = "10T MONEY",
+	Callback = function()
+      		game:GetService("ReplicatedStorage").MoneyRequest:FireServer(false, 10000000000000, "Cash")
+  	end    
+})
+
+MoneyTab:AddButton({
+	Name = "100T MONEY",
+	Callback = function()
+      		game:GetService("ReplicatedStorage").MoneyRequest:FireServer(false, 100000000000000, "Cash")
+  	end    
+})
+
+MoneyTab:AddButton({
+	Name = "1Q MONEY",
+	Callback = function()
+      		game:GetService("ReplicatedStorage").MoneyRequest:FireServer(false, 1000000000000000, "Cash")
+  	end    
+})
+
+MoneyTab:AddButton({
+	Name = "10Q MONEY",
+	Callback = function()
+      		game:GetService("ReplicatedStorage").MoneyRequest:FireServer(false, 10000000000000000, "Cash")
+  	end    
+})
+
+MoneyTab:AddButton({
+	Name = "100Q MONEY",
+	Callback = function()
+      		game:GetService("ReplicatedStorage").MoneyRequest:FireServer(false, 100000000000000000, "Cash")
+  	end    
+})
+
+MoneyTab:AddButton({
+	Name = "1QUIN MONEY",
+	Callback = function()
+      		game:GetService("ReplicatedStorage").MoneyRequest:FireServer(false, 1000000000000000000, "Cash")
+  	end    
+})
+
+MoneyTab:AddButton({
+	Name = "10QUIN MONEY",
+	Callback = function()
+      		game:GetService("ReplicatedStorage").MoneyRequest:FireServer(false, 10000000000000000000, "Cash")
+  	end    
+})
+
+MoneyTab:AddButton({
+	Name = "100QUIN MONEY",
+	Callback = function()
+      		game:GetService("ReplicatedStorage").MoneyRequest:FireServer(false, 100000000000000000000, "Cash")
+  	end    
+})
+
+-- TeleportButtons
+
+
+
+-- PurchaseBOATS
+InfoTab:AddLabel("FREE BOATS")
+InfoTab:AddLabel("CAN SPAWN MULTIPLE TIMES")
+
+PurchaseTab:AddButton({
+	Name = "BOAT1 | JETSKI",
+	Callback = function()
+      		game:GetService("ReplicatedStorage"):WaitForChild("BoatSpawner"):InvokeServer("Jetski")
+  	end    
+})
+
+ PurchaseTab:AddButton({
+	Name = "BOAT2 | DINGHY",
+	Callback = function()
+      		game:GetService("ReplicatedStorage"):WaitForChild("BoatSpawner"):InvokeServer("Dinghy")
+  	end    
+})
+
+PurchaseTab:AddButton({
+	Name = "BOAT3 | TRANSPORT BOAT",
+	Callback = function()
+      		game:GetService("ReplicatedStorage"):WaitForChild("BoatSpawner"):InvokeServer("Transport Boat")
+  	end    
+})
+
+-- InfoLabel1
+InfoTab:AddLabel("By LUMI")
+
+-- OwnerSection
+InfoTab:AddButton({
+	Name = "YOUTUBE",
+	Callback = function()
+      		setclipboard("https://www.youtube.com/@LumiEXZ")
+  	end    
+})
+
+InfoTab:AddButton({
+	Name = "Lumiere HUB (UNIVERSAL)",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/SyIent/Lumiere/main/TheLumiere"))()
+  	end    
+})
+
+InfoTab:AddButton({
+	Name = "DISCORD SERV (unavailable)",
+	Callback = function()
+      		setclipboard("unavailable")
+  	end    
+})
+
+InfoTab:AddButton({
+	Name = "DISCORD USER",
+	Callback = function()
+      		setclipboard("lumilua.")
+  	end    
+})
+
+-- CreditsSection
+InfoTab:AddLabel("Library and MORE")
+
+InfoTab:AddButton({
+	Name = "Orion Library (GUI USED)",
+	Callback = function()
+      		setclipboard("https://github.com/shlexware/Orion/blob/main/Documentation.md")
+  	end    
+})
+
+InfoTab:AddButton({
+	Name = "Site for mobile (Mobile version)",
+	Callback = function()
+      		setclipboard("")
+  	end    
+})
+
+InfoTab:AddButton({
+	Name = "Zarto DISCORD (HELPER)",
+	Callback = function()
+      		setclipboard("rickball")
+  	end    
+})
+
+InfoTab:AddButton({
+	Name = "Ren DISCORD (HELPER & MOBILE ORION)",
+	Callback = function()
+      		setclipboard("renbex.ren")
+  	end    
+})
+
+
+-- MoreButtons
+MoreTab:AddLabel("SCROLL CAREFULY TO AVOID SOMETHING U DONT WANT")
+
+MoreTab:AddButton({
+	Name = "LUMIERE HUB (EARLY)",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/SyIent/Lumiere/main/TheLumiere"))()
+  	end    
+})
+
+MoreTab:AddTextbox({
+	Name = "WalkSpeed",
+	Default = "16",
+	TextDisappear = true,
+	Callback = function(Value)
+		game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = Value
+	end	  
+})
+
+MoreTab:AddTextbox({
+	Name = "WalkSpeed",
+	Default = "16",
+	TextDisappear = true,
+	Callback = function(Value)
+		game.Players.LocalPlayer.Character.Humanoid.JumpPower = Value
+	end	  
+})
+
+MoreTab:AddButton({
+	Name = "Reset JumpPower",
+	Callback = function()
+      		game.Players.LocalPlayer.Character.Humanoid.JumpPower = 50
+  	end    
+})
+
+MoreTab:AddButton({
+	Name = "Reset Walkspeed",
+	Callback = function()
+      		game.Players.LocalPlayer.Character.Humanoid.Walkspeed = 16
+  	end    
+})
+
+MoreTab:AddButton({
+	Name = "TP Tool",
+	Callback = function()
+      		
+  	end    
+})
+
+MoreTab:AddButton({
+	Name = "SIMPLE SPY",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/78n/SimpleSpy/main/SimpleSpySource.lua"))()
+  	end    
+})
+
+MoreTab:AddButton({
+	Name = "DARK DEX",
+	Callback = function()
+      		loadstring(game:HttpGet("https://github.com/Hosvile/DEX-Explorer/releases/latest/download/main.lua",true))()
+  	end    
+})
+
+MoreTab:AddButton({
+	Name = "REJOIN",
+	Callback = function()
+      		loadstring(game:HttpGet("https://pastebin.com/raw/1gtVMUz3"))()
+  	end    
+})
+
+-- SNMButtons
+SNNTab:AddLabel("Tester's")
+
+SNMTab:AddButton({
+	Name = "Name (TESTER 1)",
+	Callback = function()
+      		
+  	end    
+})
+SNMTab:AddButton({
+	Name = "Name (TESTER 2)",
+	Callback = function()
+      		
+  	end    
+})
+SNMTab:AddButton({
+	Name = "Name (TESTER 3)",
+	Callback = function()
+      		
+  	end    
+})
+
+SNNTab:AddLabel("Showcaser's")
+
+SNMTab:AddButton({
+	Name = "Name (SHOWCASER 1)",
+	Callback = function()
+      		
+  	end    
+})
+SNMTab:AddButton({
+	Name = "Name (SHOWCASER 2)",
+	Callback = function()
+      		
+  	end    
+})
+SNMTab:AddButton({
+	Name = "Name (SHOWCASER 3)",
+	Callback = function()
+      		
+  	end    
+})
