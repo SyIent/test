@@ -47,7 +47,7 @@ local SNMTab = Window:MakeTab({
 })
 
 -- MoreTab
-local MoreTab = Window:MakeTab({
+local MZKTab = Window:MakeTab({
 	Name = "MORE",
 	Icon = "rbxassetid://4483345998",
 	PremiumOnly = false
@@ -321,16 +321,16 @@ InfoTab:AddButton({
 
 
 -- MoreButtons
-MoreTab:AddLabel("SCROLL CAREFULY TO AVOID SOMETHING U DONT WANT")
+MZKTab:AddLabel("SCROLL CAREFULY TO AVOID SOMETHING U DONT WANT")
 
-MoreTab:AddButton({
+MZKTab:AddButton({
 	Name = "LUMIERE HUB (EARLY)",
 	Callback = function()
       		loadstring(game:HttpGet("https://raw.githubusercontent.com/SyIent/Lumiere/main/TheLumiere"))()
   	end    
 })
 
-MoreTab:AddTextbox({
+MZKTab:AddTextbox({
 	Name = "WalkSpeed",
 	Default = "16",
 	TextDisappear = true,
@@ -339,7 +339,7 @@ MoreTab:AddTextbox({
 	end	  
 })
 
-MoreTab:AddTextbox({
+MZKTab:AddTextbox({
 	Name = "WalkSpeed",
 	Default = "16",
 	TextDisappear = true,
@@ -348,42 +348,42 @@ MoreTab:AddTextbox({
 	end	  
 })
 
-MoreTab:AddButton({
+MZKTab:AddButton({
 	Name = "Reset JumpPower",
 	Callback = function()
       		game.Players.LocalPlayer.Character.Humanoid.JumpPower = 50
   	end    
 })
 
-MoreTab:AddButton({
+MZKTab:AddButton({
 	Name = "Reset Walkspeed",
 	Callback = function()
       		game.Players.LocalPlayer.Character.Humanoid.Walkspeed = 16
   	end    
 })
 
-MoreTab:AddButton({
+MZKTab:AddButton({
 	Name = "TP Tool",
 	Callback = function()
       		
   	end    
 })
 
-MoreTab:AddButton({
+MZKTab:AddButton({
 	Name = "SIMPLE SPY",
 	Callback = function()
       		loadstring(game:HttpGet("https://raw.githubusercontent.com/78n/SimpleSpy/main/SimpleSpySource.lua"))()
   	end    
 })
 
-MoreTab:AddButton({
+MZKTab:AddButton({
 	Name = "DARK DEX",
 	Callback = function()
       		loadstring(game:HttpGet("https://github.com/Hosvile/DEX-Explorer/releases/latest/download/main.lua",true))()
   	end    
 })
 
-MoreTab:AddButton({
+MZKTab:AddButton({
 	Name = "REJOIN",
 	Callback = function()
       		loadstring(game:HttpGet("https://pastebin.com/raw/1gtVMUz3"))()
